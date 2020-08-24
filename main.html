@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--template by Javier Lugo-->
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" type="text/css" href="ui.css" media="screen"/>
+        <script lang="javascript" type="text/javascript">
+            var user = {
+                name:"A01571142",
+                password: "Loyola22.",
+                campus: "CCU",
+                semester: "5",
+            }
+            function login(){
+                var u = document.getElementById("u").value;
+                var p = document.getElementById("p").value;
+                if(p == user.password && u == user.name){
+                    document.getElementById("s").hidden = false;
+                    document.getElementById("l").hidden = true;
+                    document.getElementById("i").hidden = false;
+                }
+            }
+        </script>
+    </head>
+    <body id="body">
+        <div id="bar" class="bar">
+        </div>
+        <center>
+            <div id="l" class="l">
+        
+                <h1>Login</h1>
+                <br>
+                <label>User</label>
+                <br>
+                <input type="text" id="u" placeholder="A0157XXXX">
+                <br>
+                <label>Password</label>
+                <br>
+                <input type="password" id="p" placeholder="password">
+                <br>
+                <button class="submit" onclick="login()">Log in</button>
+        
+            </div>
+        </center>
+        <div class="info" id="i" hidden><img src="credential.png"></div>
+        <br>
+        <div id="s" hidden>
+            <div class="def">
+                <center>
+                    <a href="monday.html"><button>monday</button></a>
+                </center>
+            </div>
+            <div class="def">
+                <center>
+                    <a href="tuesday.html"><button>tuesday</button></a>
+                </center>
+            </div>
+            <div class="def">
+                <center>
+                    <a href="wednesday.html"><button>wednesday</button></a>
+                </center>
+            </div>
+            <div class="def">
+                <center>
+                    <a href="thursday.html"><button>thursday</button></a>
+                </center>
+            </div>
+            <div class="def">
+                <center>
+                    <a href="friday.html"><button>friday</button></a>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

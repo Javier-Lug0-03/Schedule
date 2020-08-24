@@ -1,0 +1,78 @@
+div.bar{
+    height: 25px;
+    width: 1250px;
+    background-color: blue;
+    border: black 1px;
+    color: white;
+}
+div.switch{
+    float: left;
+    background-color: blue;
+    color: white;
+}
+div.l{
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    border: black 5px;
+}
+div.info{
+    float: left;
+}
+div.def{
+    width: 1250px;
+    height: 100px;
+    border-radius: 0%;
+    background-color: lightgray ;
+    color: black;
+    float: left;    
+    line-height: 6.25%;
+    margin: 10px 10px 10px 10px;
+}
+div.assignment_name{
+    background-color: none;
+    color: black;
+    float: left;
+}
+div.link{
+    background-color: none;
+    color: black;
+    float: right;
+}
+div.colorbar_math{
+    float: right;
+    background-color: red;
+    width: 10px;
+    height: 100px;
+}
+div.colorbar_actores{
+    float: right;
+    background-color: yellow;
+    width: 10px;
+    height: 100px;
+}
+div.colorbar_deutsch{
+    float: right;
+    background-color: orangered;
+    width: 10px;
+    height: 100px;
+}
+div.colorbar_tutoreo{
+    float: right;
+    background-color: lightblue;
+    width: 10px;
+    height: 100px;
+}
+div.colorbar_physics{
+    float: right;
+    background-color: green;
+    width: 10px;
+    height: 100px;
+}
+div.colorbar_FIRST{
+    float: right;
+    background-color: purple;
+    width: 10px;
+    height: 100px;
+}
